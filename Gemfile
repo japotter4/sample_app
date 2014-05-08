@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 #ruby-gemset=railstutorial_rails_4_0
 
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
@@ -24,6 +24,9 @@ group :development, :test do
   gem 'childprocess', '0.3.6'
   gem 'guard-cucumber'
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'fuubar'
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
